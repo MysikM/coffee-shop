@@ -47,6 +47,19 @@ section {
     padding: 2rem 7%;
 }
 
+.heading {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+.heading span {
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
 .btn {
     margin-top: 1rem;
     display: inline-block;
@@ -243,6 +256,38 @@ section {
     color: #eee;
 }
 
+.about__row {
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
+
+.about__image {
+    flex: 1 1 45rem;
+}
+
+.about__image img {
+    width: 100%;
+}
+
+.about__content {
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.about__content h3 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.about__content p {
+    font-size: 1.6rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
 
 @media (max-width: 991px) {
     html {
@@ -288,18 +333,18 @@ section {
         width: 90%;
         right: 2rem;
     }
-    
-    .home{
+
+    .home {
         background-position: left;
         justify-content: center;
         text-align: center;
     }
-    
-    .home__content h3{
+
+    .home__content h3 {
         font-size: 4.5rem;
     }
 
-    .home__content p{
+    .home__content p {
         font-size: 1.5rem;
     }
 }
